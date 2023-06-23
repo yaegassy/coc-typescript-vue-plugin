@@ -6,7 +6,7 @@ TypeScript Vue Plugin (Volar) for [coc.nvim](https://github.com/neoclide/coc.nvi
 
 ## Note
 
-This extension enable the [typescript-vue-plugin](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) on the `tsserver` launched by [coc-tsserver](https://github.com/neoclide/coc-tsserver).
+This extension enable the [typescript-vue-plugin](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) on the `tsserver` launched by [coc-tsserver](https://github.com/neoclide/coc-tsserver). coc-tsserver respects the `contributes.typescriptServerPlugins` setting in `package.json`.
 
 ## Install
 
