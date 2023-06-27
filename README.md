@@ -26,6 +26,16 @@ This extension enable the [typescript-vue-plugin](https://marketplace.visualstud
 Plug 'yaegassy/coc-typescript-vue-plugin', {'do': 'yarn install --frozen-lockfile'}
 ```
 
+## How to temporarily disable this extension
+
+If for some reason you wish to temporarily disable this extension, please follow these steps
+
+1. Execute `:CocList extensions`.
+2. Enter or select `@yaegassy/coc-typescript-vue-plugin`.
+3. press the `TAB` key.
+4. To disable, press the `d` key. d is (d)isable action.
+   - To enable, press the `e` key. e is a (e)nable action.
+
 ## Thanks
 
 - [vuejs/language-tools](https://github.com/vuejs/language-tools)
