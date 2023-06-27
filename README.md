@@ -12,9 +12,15 @@ This extension enable the [typescript-vue-plugin](https://marketplace.visualstud
 
 **CocInstall**:
 
-> ...TODO
+```
+:CocInstall @yaegassy/coc-typescript-vue-plugin
+```
 
-**e.g. vim-plug**:
+> scoped packages
+
+**When using a plugin manager, etc**:
+
+> e.g. vim-plug
 
 ```vim
 Plug 'yaegassy/coc-typescript-vue-plugin', {'do': 'yarn install --frozen-lockfile'}
