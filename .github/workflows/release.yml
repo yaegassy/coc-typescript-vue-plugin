@@ -1,0 +1,36 @@
+name: Release
+on: 
+  workflow_run:
+    workflows: 
+      - Dependabot auto-merge
+    types: 
+      - completed
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+          registry-url: 'https://registry.npmjs.org'
+          scope       : '@yaegassy'
+          always-auth : true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: yarn install --frozen-lockfile
+      - run: | 
+          yarn lint
+          yarn build
+      - run: |
+          git config user.name ${{ vars.GHA_GIT_USER }}
+          git config user.email ${{ vars.GHA_GIT_USER }}@users.noreply.github.com
+      - run: yarn version --patch
+      - run: git push origin master --tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: npm publish --access=public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
