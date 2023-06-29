@@ -21,10 +21,12 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: yarn install --frozen-lockfile
-      - run: | 
+      - name: Lint and build
+        run: | 
           yarn lint
           yarn build
-      - run: |
+      - name: Git user settings
+        run: |
           git config user.name ${{ vars.GHA_GIT_USER }}
           git config user.email ${{ vars.GHA_GIT_USER }}@users.noreply.github.com
       - run: yarn version --patch
