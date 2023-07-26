@@ -1,6 +1,6 @@
 {
   "name": "@yaegassy/coc-typescript-vue-plugin",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "TypeScript Vue Plugin (Volar) for coc.nvim",
   "author": "yaegassy <yosstools@gmail.com>",
   "license": "MIT",
