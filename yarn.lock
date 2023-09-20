@@ -346,10 +346,10 @@
     "@vue/compiler-core" "3.3.4"
     "@vue/shared" "3.3.4"
 
-"@vue/language-core@1.8.12":
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/@vue/language-core/-/language-core-1.8.12.tgz#9eea3936f76280da64da5b1faa38993e102d057d"
-  integrity sha512-IYSr7ojQX2re7zMAKUKUYovuJ5IJoUI3PhgBRcpRBU29YnF/gDLf1c9ARtbnGPFvtDC+QP+/CfwVBxdPipBjEw==
+"@vue/language-core@1.8.13":
+  version "1.8.13"
+  resolved "https://registry.yarnpkg.com/@vue/language-core/-/language-core-1.8.13.tgz#fc05f8f9034c04013000da5ed6aa7a6afe6ccc2f"
+  integrity sha512-nata2fYBZAkl4QJrU+IcArJCMTHt1VP8ePL/Z7eUPC2AF+Cm7Qgo9ksNCPBzZRh1LYjCaSaqV7njqNogwpsMVg==
   dependencies:
     "@volar/language-core" "~1.10.0"
     "@volar/source-map" "~1.10.0"
@@ -372,13 +372,13 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.3.4.tgz#06e83c5027f464eef861c329be81454bc8b70780"
   integrity sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==
 
-"@vue/typescript@1.8.12":
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/@vue/typescript/-/typescript-1.8.12.tgz#69964e57e7d720cee3136984b53b64407adbb3c7"
-  integrity sha512-cE3mXd/iUM+1Row2gMfhSC4VAEySvpHzKom5v3mOw0hH7ck2odpdLTLPzcNrCPmvXKEie2UovBO7T5P6v2qIyQ==
+"@vue/typescript@1.8.13":
+  version "1.8.13"
+  resolved "https://registry.yarnpkg.com/@vue/typescript/-/typescript-1.8.13.tgz#0663f165778ba43d9691e617c5836496a6bc4f7a"
+  integrity sha512-ALJjHFqQ3dgZVCI/ogAS/dZ7JEhIi1N0Em5I7uwabY1p9RDRK3odLsycMHyxZRjm5dLI15c07eeBloHiD2Otlg==
   dependencies:
     "@volar/typescript" "~1.10.0"
-    "@vue/language-core" "1.8.12"
+    "@vue/language-core" "1.8.13"
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
@@ -1175,13 +1175,13 @@ type-fest@^0.20.2:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.20.2.tgz#1bf207f4b28f91583666cb5fbd327887301cd5f4"
   integrity sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
 
-typescript-vue-plugin@1.8.12:
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/typescript-vue-plugin/-/typescript-vue-plugin-1.8.12.tgz#26e406513e1f134c8309f9296558a9b8e387dfa1"
-  integrity sha512-spSF47mqxH1dGLsnNcxpblF/UDIo2rlx+7ICpov0BZ5dp9wvXrfou1KpBjy81yIIKY8YNn2rWXEHkpcaAG2lcA==
+typescript-vue-plugin@1.8.13:
+  version "1.8.13"
+  resolved "https://registry.yarnpkg.com/typescript-vue-plugin/-/typescript-vue-plugin-1.8.13.tgz#f83c0125dd432c1c0d097216284917adf6a1fa05"
+  integrity sha512-lh0hpVzoUj/NkkrYwBfYluiq2Dkvk9UABTuZEav4CW2fGGW25pwYszt7osa1nPNwIgwFi8ZOPpxDEBG/fWhvQw==
   dependencies:
-    "@vue/language-core" "1.8.12"
-    "@vue/typescript" "1.8.12"
+    "@vue/language-core" "1.8.13"
+    "@vue/typescript" "1.8.13"
     vscode-uri "^3.0.7"
 
 typescript@5.1.3:
