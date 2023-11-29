@@ -66,6 +66,6 @@
     ]
   },
   "dependencies": {
-    "typescript-vue-plugin": "1.8.22"
+    "typescript-vue-plugin": "1.8.24"
   }
 }
